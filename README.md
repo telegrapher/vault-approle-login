@@ -10,7 +10,7 @@ It is only one API call, as explained in Vault's [documentation](https://www.vau
 - Safely use environment variables without showing credentials in any shell history.
 
 ## Usage
-This tool has been created to retrieve a Vault token using approle login. This is very useful, for example, in combination with [envconsul](https://github.com/hashicorp/envconsul)
+This tool has been created to retrieve a Vault token using approle login. This is very useful, for example, in combination with [envconsul](https://github.com/hashicorp/envconsul):
 ```
 export VAULT_ROLE_ID="MY_ROLE_ID"
 export VAULT_SECRET_ID="MY_SECRET_ID"

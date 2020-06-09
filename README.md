@@ -7,3 +7,4 @@ It is only one API call, as explained in https://www.vaultproject.io/docs/auth/a
 - Perform retries and good error management.
 - Use parameters to personalize the API call if needed.
 - Show extra information in STDERR.
+- Safely use environment variables without showing credentials in any shell history.
